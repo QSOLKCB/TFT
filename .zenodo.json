@@ -1,0 +1,46 @@
+{
+  "title": "TFT — Tensor Field Theory: From Invariance to Dynamics",
+  "upload_type": "publication",
+  "publication_type": "article",
+  "description": "Tensor Field Theory (TFT) extends the QSOL Unified Field Framework (UFT) into the domain of dynamics. It formulates self-dual φ-locked tensor systems as the harmonic evolution of geometry, sound, and information within an invariant resonance manifold. TFT provides a mathematical and conceptual bridge between field theory, sonification, and information symmetry, defining truth as resonance that remains invariant through transformation.",
+  "creators": [
+    {
+      "name": "Slade, Trent",
+      "affiliation": "QSOL IMC",
+      "orcid": "0009-0002-4515-9237"
+    }
+  ],
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "tensor field theory",
+    "QSOL",
+    "UFT",
+    "quantum sonification",
+    "information resonance",
+    "self-dual systems",
+    "φ-lock symmetry",
+    "Spectral Algebraics",
+    "resonant geometry"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.17520186",
+      "relation": "isPartOf",
+      "resource_type": "publication"
+    },
+    {
+      "identifier": "https://github.com/QSOLKCB/UFT",
+      "relation": "isPartOf",
+      "resource_type": "software"
+    }
+  ],
+  "language": "en",
+  "notes": "Part II of the QSOL Series — QEC → UFT → TFT. Expands the framework from static invariance to harmonic dynamics.",
+  "access_right": "open",
+  "publication_date": "2025-11-10",
+  "communities": [
+    { "identifier": "qsol-imc" }
+  ],
+  "version": "1.0.0",
+  "doi": "10.5281/zenodo.pending"
+}
