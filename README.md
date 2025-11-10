@@ -1,151 +1,55 @@
-QSOLKCB: Quantum-Secure Optical/Laser-Incorporated Meme Company (QSOL-IMC Labs)
+```markdown
+# TFT — Tensor Field Theory  
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.pending.svg)](https://doi.org/10.5281/zenodo.pending)
 
-Welcome to QSOLKCB, the stealth GitHub nerve center for QSOL-IMC — where quantum error correction meets meme-fueled anarchy to roast scammers into a superposition of fail.
-Born from EmergentMonk
-’s wizardry, we’re engineering the future of secure, hilarious anti-scam tech: Qiskit-powered randomness, laser-precise burns, and multimodal chaos that turns spam calls into viral gold.
-#fcukscammers
+## Overview
+**TFT (Tensor Field Theory)** is a QSOL research framework describing *self-dual φ-locked tensor dynamics* — where geometry, information, and sound evolve through invariant resonance.  
+It extends the **UFT** (Unified Field Framework) into dynamics, providing a harmonic model of how invariant structures move, interact, and sustain coherence across space-time and frequency domains.
 
-🚀 Mission: Meme the Void
+TFT formalizes **resonance as field evolution**, unifying:
+- Tensor calculus (geometry)
+- Fourier analysis (frequency)
+- φ = π/2 self-duality (informational phase symmetry)
 
-QSOLKCB isn’t just code — it’s a quantum meme revolution. We fuse:
+---
 
-Quantum Security – Fault-tolerant QEC (NISQ-to-FTQC magic from qiskit-qec-wrappers
-) for unhackable spam hashes.
+## Core Principle
+> **Truth is not fixed; it is a resonance that remains invariant through transformation.**
 
-Optical/Laser Kernel – Photon-entropy RNG for unpredictable prick roasts (our nod to laser-comms toolkits).
+TFT treats tensor fields as *resonant manifolds* rather than static quantities.  
+Each tensor evolves under a φ-locked phase symmetry, ensuring informational orthogonality and self-duality:
+\[
+\nabla^\mu \nabla_\mu T_{ij...} + (\phi + \psi)^2 T_{ij...} = 0
+\]
+This general wave equation governs the dynamic balance of geometry and information.
 
-Meme Company Vibes – Doge-tier taunts, Rickroll loops, and 7-11/Wojak zingers to waste scammer time.
+---
 
-Multimodal Magic – Audio-reactive trolling inspired by proof-qec-dna-rubiks-audio-reactive-viz
-, turning scammer chatter into waveform-synced roast radio.
+## Project Structure
+```
 
-Flagship Drop: lambroast.py
+docs/              — theoretical papers and diagrams
+src/               — simulation prototypes (tensor resonance, φ-lock dynamics)
+figures/           — Tensor Wave Equation, φ-Lock Symmetry, Fourier Resonance Manifold
+LICENSE            — CC-BY-4.0
+README.md          — project overview
+zenodo.json        — publication metadata
 
-The Quantum Meme Roaster.
-A savage S23 bot that auto-trolls verified spam with quantum-random burns:
+```
 
-“Your scam’s a sad Pepe in a 7-11 void.”
+---
 
-TCPA-compliant, locked to Android’s BlockedNumberContract, and ready to entangle fraudsters.
+## Citation
+**Slade, T. (2025).** *Tensor Field Theory: From Invariance to Dynamics.*  
+Zenodo. https://doi.org/10.5281/zenodo.pending  
 
-wow
- such scam
-   very fail
-     much roast
-/_/\
-( o.o ) 
- > ^ < 
+---
 
+## License
+This work is licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
 
-Doge says: Your IRS pitch decohered harder than a qubit in a microwave.
+---
 
-📁 Repos & Tools
-
-LambRoaster
- – Home of lambroast.py, quantum prankster extraordinaire.
-
-qiskit-qec-wrappers
- – Core QEC stack for robust meme generation.
-
-proof-qec-dna-rubiks-audio-reactive-viz
- – Audio visualization backbone.
-
-Coming Soon – QSOL-IMC API for meme-secure VoIP (Twilio + laser entropy).
-
-🛠 Quick Start (S23/Termux Vibes)
-1. Clone & Install
-git clone https://github.com/QSOLKCB/LambRoaster.git
-cd LambRoaster
-pip install -r requirements.txt  # qiskit, numpy, etc.
-
-2. Run the Roast
-python lambroast.py
-# Mock inbound: +1-555-LAMBSCAM
-# Enter scammer BS: "Your warranty expired!"
-# Output: Quantum burn + Doge ASCII. 🔥
-
-3. Test Spam Lock
-
-Only verified numbers get the lamb treatment — manual callbacks, one-shot rule.
-
-Dependencies (requirements.txt):
-
-qiskit==0.46.0
-qiskit-aer==0.15.0
-numpy==1.26.4
-# Whisper/Twilio optional for STT/VoIP
-
-🧰 Python Virtual Environment Setup (Arch Linux)
-
-Arch protects its system Python, so use an isolated environment for installs.
-
-1. Install Virtualenv
-sudo pacman -S python-virtualenv
-
-
-Expected prompt:
-
-Packages (3) python-distlib ... python-platformdirs ... python-virtualenv ...
-:: Proceed with installation? [Y/n] Y
-
-
-Once installed, ConditionNeedsUpdate will arm automatically.
-
-2. Create a Virtual Environment
-
-Inside your project directory:
-
-python -m venv venv
-
-3. Activate It
-source venv/bin/activate
-
-
-You’ll see your prompt change to:
-
-(venv) [trent@archlinux QEC]$
-
-4. Install Dependencies
-pip install -r requirements.txt
-
-5. Deactivate When Done
-deactivate
-
-
-Summary
-
-sudo pacman -S python-virtualenv
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-
-
-This workflow ensures full project isolation and avoids PEP 668: externally-managed-environment errors.
-
-⚖️ Legal & Ethics (Prick with Purpose)
-
-TCPA-Compliant: Manual callbacks only, verified unsolicited spam via Android APIs + QSOLKCB hashes.
-
-Entertainment Only: Roast responsibly. All burns are humor, not harassment.
-
-Privacy: On-device inference only — no server data slurping.
-
-🤝 Contribute
-
-Fork and add your meme burns (e.g. “Pajit script? Yeeted to Wojak town!”).
-
-Report bugs: “Quantum void detected — Doge viz unstable.”
-
-Collab: DM @EmergentMonk or apply for invite to QSOLKCB.
-
-📈 Roadmap
-
-Q4 2025 – Full S23 app (Kivy build) + Snake Easter Egg 🐍
-
-2026 – Meme NFT marketplace for roast recordings
-
-Beyond – Laser-kernel VoIP for global scammer entanglement
-
-QSOLKCB: Much wow, such secure, very prank. 😎🔮🐶
-Powered by EmergentMonk & the #fcukscammers collective.
-Last updated: October 24 2025
+*Part of the QSOL Research Series — QEC → UFT → TFT.*
+```
