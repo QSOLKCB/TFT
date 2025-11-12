@@ -20,55 +20,34 @@ TFT formalizes **resonance as field evolution**, unifying:
 > **Truth is not fixed; it is a resonance that remains invariant through transformation.**
 
 TFT treats tensor fields as *resonant manifolds* rather than static quantities.  
-Each tensor evolves under a φ-locked phase symmetry, ensuring informational orthogonality and self-duality:
+Each tensor evolves under a φ-locked phase symmetry, ensuring informational orthogonality and self-duality.
 
 **Field Equation**
 ```tex
 ∇^μ ∇_μ T_{ij...} + (φ + ψ)^2 T_{ij...} = 0
-
 This general wave equation governs the dynamic balance of geometry and information.
 
----
+Project Structure
+docs/              — theoretical papers and diagrams
+src/               — simulation prototypes (tensor resonance, φ-lock dynamics)
+figures/           — Tensor Wave Equation, φ-Lock Symmetry, Fourier Resonance Manifold
+LICENSE            — CC-BY-4.0
+README.md          — project overview
+zenodo.json        — publication metadata
 
-## Project Structure
-docs/ — theoretical papers and diagrams
-src/ — simulation prototypes (tensor resonance, φ-lock dynamics)
-figures/ — Tensor Wave Equation, φ-Lock Symmetry, Fourier Resonance Manifold
-LICENSE — CC-BY-4.0
-README.md — project overview
-zenodo.json — publication metadata
-
-yaml
-Copy code
-
----
-
-![Tensor Resonance Phase Cube](figures/phase_cube.png)
-
----
-
-## Quickstart
-Clone and run a minimal TFT simulation.
-
-```bash
+Quickstart
+Clone and run a minimal TFT simulation:
 git clone https://github.com/QSOLKCB/TFT.git
 cd TFT
 pip install -r requirements.txt
 python src/example.py
 Optional parameters:
-
-bash
-Copy code
 TFT_SEED=2025 TFT_DIM=4 python src/example.py
 Requirements
-Python 3.10 +
-
+Python 3.10+
 numpy ≥ 1.26
-
 scipy ≥ 1.11
-
 matplotlib ≥ 3.8
-
 (dev) pytest ≥ 7.4
 
 Citation
@@ -82,6 +61,3 @@ This work is licensed under the
 Creative Commons Attribution 4.0 International License (CC BY 4.0).
 
 Part of the QSOL Research Series — QEC → UFT → TFT.
-
-yaml
-Copy code
