@@ -11,6 +11,10 @@
     }
   ],
   "license": "CC-BY-4.0",
+  "access_right": "open",
+  "publication_date": "2025-11-10",
+  "language": "en",
+  "version": "1.0.0",
   "keywords": [
     "tensor field theory",
     "QSOL",
@@ -34,13 +38,9 @@
       "resource_type": "software"
     }
   ],
-  "language": "en",
-  "notes": "Part II of the QSOL Series — QEC → UFT → TFT. Expands the framework from static invariance to harmonic dynamics.",
-  "access_right": "open",
-  "publication_date": "2025-11-10",
   "communities": [
     { "identifier": "qsol-imc" }
   ],
-  "version": "1.0.0",
+  "notes": "Part II of the QSOL Series — QEC → UFT → TFT. Expands the framework from static invariance to harmonic dynamics.",
   "doi": "10.5281/zenodo.pending"
 }
