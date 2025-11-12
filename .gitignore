@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+dist/
+build/
+*.egg-info/
+.figures_cache/
+figures/*.png
+figures/*.wav
