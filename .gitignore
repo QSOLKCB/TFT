@@ -6,5 +6,4 @@ dist/
 build/
 *.egg-info/
 .figures_cache/
-figures/*.png
-figures/*.wav
+
