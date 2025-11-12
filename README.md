@@ -23,8 +23,8 @@ TFT treats tensor fields as *resonant manifolds* rather than static quantities.
 Each tensor evolves under a φ-locked phase symmetry, ensuring informational orthogonality and self-duality:
 
 **Field Equation**
-
-∇^μ ∇_μ T₍ᵢⱼ…₎ + (φ + ψ)² T₍ᵢⱼ…₎ = 0
+```tex
+∇^μ ∇_μ T_{ij...} + (φ + ψ)^2 T_{ij...} = 0
 
 This general wave equation governs the dynamic balance of geometry and information.
 
