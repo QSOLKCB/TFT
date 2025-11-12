@@ -22,9 +22,9 @@ TFT formalizes **resonance as field evolution**, unifying:
 TFT treats tensor fields as *resonant manifolds* rather than static quantities.  
 Each tensor evolves under a φ-locked phase symmetry, ensuring informational orthogonality and self-duality:
 
-\[
-\nabla^\mu \nabla_\mu T_{ij\ldots} + (\phi + \psi)^2 T_{ij\ldots} = 0
-\]
+**Field Equation**
+
+∇^μ ∇_μ T₍ᵢⱼ…₎ + (φ + ψ)² T₍ᵢⱼ…₎ = 0
 
 This general wave equation governs the dynamic balance of geometry and information.
 
