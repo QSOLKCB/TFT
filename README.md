@@ -1,7 +1,8 @@
 # TFT — Tensor Field Theory  
 [![Status: alpha](https://img.shields.io/badge/status-alpha-orange)](#)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.pending.svg)](https://doi.org/10.5281/zenodo.pending)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17587839.svg)](https://doi.org/10.5281/zenodo.17587839)
+
 
 ---
 
@@ -51,10 +52,9 @@ matplotlib ≥ 3.8
 (dev) pytest ≥ 7.4
 
 Citation
-Slade, T. (2025). Tensor Field Theory: From Invariance to Dynamics.
-Zenodo. https://doi.org/10.5281/zenodo.pending
+**Slade, T. (2025).** *Tensor Field Theory: From Invariance to Dynamics.*  
+Zenodo. https://doi.org/10.5281/zenodo.17587839
 
-(Update DOI after tagging your release.)
 
 License
 This work is licensed under the
