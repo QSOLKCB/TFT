@@ -1,0 +1,79 @@
+name: Bug report
+description: Report a reproducible numerical, CLI, artifact, or documentation problem.
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a problem. Do not attach confidential data. For
+        security vulnerabilities, follow `SECURITY.md` instead of filing an issue.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Problem summary
+      description: What happened, and which TFT Lab operation was affected?
+      placeholder: A concise description of the failure.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction steps
+      description: Include the complete command and the smallest safe input that reproduces the problem.
+      render: shell
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: TFT Lab version or commit
+      placeholder: 0.2.0 or commit SHA
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Include OS, architecture, Python version, and NumPy version.
+      placeholder: Ubuntu 24.04, x86_64, Python 3.12.4, NumPy 2.3.1
+    validations:
+      required: true
+
+  - type: textarea
+    id: recipe
+    attributes:
+      label: Numerical recipe
+      description: Include seed, dimension, tolerances, and input source, or attach a redacted recipe.json.
+      placeholder: "seed=1337, dimension=3, tolerance=1e-10"
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: State the expected result or invariant and any applicable tolerance.
+    validations:
+      required: true
+
+  - type: textarea
+    id: output
+    attributes:
+      label: Logs or observations
+      description: Paste the error, observations, or verification output. Remove sensitive paths and data.
+      render: text
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I tested the current main branch or latest release.
+          required: true
+        - label: I have not included confidential or personal data.
+          required: true
+        - label: This is not a private security vulnerability.
+          required: true

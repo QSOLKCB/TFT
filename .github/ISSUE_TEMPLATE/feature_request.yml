@@ -1,0 +1,66 @@
+name: Feature request
+description: Propose a focused improvement to TFT Lab.
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Research or user problem
+      description: What concrete problem would this feature solve?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+      description: Describe inputs, outputs, CLI behavior, and artifact changes where relevant.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Primary area
+      options:
+        - Numerical core
+        - Sonification
+        - CLI and artifact format
+        - Verification and reproducibility
+        - Visualization
+        - Documentation
+        - Packaging and CI
+    validations:
+      required: true
+
+  - type: textarea
+    id: claims
+    attributes:
+      label: Claim-boundary impact
+      description: Does this alter what the software can legitimately demonstrate or verify?
+      placeholder: Explain any new claim, evidence, assumptions, or limitations.
+    validations:
+      required: true
+
+  - type: textarea
+    id: determinism
+    attributes:
+      label: Reproducibility impact
+      description: Describe effects on recipes, schemas, hashes, tolerances, or replay compatibility.
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: What smaller or existing approach could address the same problem?
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: The proposal is within TFT Lab's documented scientific scope.
+          required: true
+        - label: I have not included confidential or personal data.
+          required: true
