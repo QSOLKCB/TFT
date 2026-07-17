@@ -1,0 +1,2 @@
+# Editable development install with the visual demo and test suite.
+-e .[demo,dev]

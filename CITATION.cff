@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use TFT Lab, please cite this software repository."
+title: "TFT Lab"
+type: software
+version: 0.2.0
+authors:
+  - family-names: Slade
+    given-names: Trent
+    affiliation: QSOL-IMC
+    orcid: "https://orcid.org/0009-0002-4515-9237"
+repository-code: "https://github.com/QSOLKCB/TFT"
+url: "https://github.com/QSOLKCB/TFT"
+license: CC-BY-4.0
+abstract: >-
+  TFT Lab is an alpha-status research prototype for deterministic tensor
+  invariance experiments, quadrature signal construction, and scientific
+  sonification. Its numerical demonstrations do not establish a validated
+  physical theory.
+keywords:
+  - tensor invariants
+  - quadrature
+  - scientific sonification
+  - reproducible research

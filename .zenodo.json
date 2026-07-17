@@ -1,46 +1,37 @@
 {
-  "title": "TFT — Tensor Field Theory: From Invariance to Dynamics",
-  "upload_type": "publication",
-  "publication_type": "article",
-  "description": "Tensor Field Theory (TFT) extends the QSOL Unified Field Framework (UFT) into the domain of dynamics. It formulates self-dual φ-locked tensor systems as the harmonic evolution of geometry, sound, and information within an invariant resonance manifold. TFT provides a mathematical and conceptual bridge between field theory, sonification, and information symmetry, defining truth as resonance that remains invariant through transformation.",
+  "title": "TFT Lab 0.2.0: Reproducible Tensor Invariance and Quadrature Sonification",
+  "upload_type": "software",
+  "description": "TFT Lab is an alpha-status research prototype for deterministic tensor invariance experiments, quadrature signal construction, and scientific sonification. It provides executable numerical demonstrations and replay-oriented artifacts; it does not establish a validated physical theory.",
   "creators": [
     {
       "name": "Slade, Trent",
-      "affiliation": "QSOL IMC",
+      "affiliation": "QSOL-IMC",
       "orcid": "0009-0002-4515-9237"
     }
   ],
   "license": "CC-BY-4.0",
   "access_right": "open",
-  "publication_date": "2025-11-10",
-  "language": "en",
-  "version": "1.0.0",
+  "language": "eng",
+  "version": "0.2.0",
   "keywords": [
-    "tensor field theory",
-    "QSOL",
-    "UFT",
-    "quantum sonification",
-    "information resonance",
-    "self-dual systems",
-    "φ-lock symmetry",
-    "Spectral Algebraics",
-    "resonant geometry"
+    "tensor invariants",
+    "quadrature",
+    "scientific sonification",
+    "deterministic computation",
+    "reproducible research",
+    "QSOL-IMC"
   ],
   "related_identifiers": [
     {
-      "identifier": "10.5281/zenodo.17520186",
-      "relation": "isPartOf",
-      "resource_type": "publication"
-    },
-    {
-      "identifier": "https://github.com/QSOLKCB/UFT",
-      "relation": "isPartOf",
+      "identifier": "https://github.com/QSOLKCB/TFT",
+      "relation": "isVersionOf",
       "resource_type": "software"
     }
   ],
   "communities": [
-    { "identifier": "qsol-imc" }
+    {
+      "identifier": "qsol-imc"
+    }
   ],
-  "notes": "Part II of the QSOL Series — QEC → UFT → TFT. Expands the framework from static invariance to harmonic dynamics.",
-  "doi": "10.5281/zenodo.pending"
+  "notes": "Alpha-status research software. Cite this software release or the repository; this metadata does not assert a separate conceptual-publication DOI."
 }
